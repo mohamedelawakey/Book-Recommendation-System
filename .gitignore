@@ -15,6 +15,7 @@ venv
 logs/
 
 # data in ml
+ml/data/similarity
 ml/data/cleaned
 ml/data/featured
 ml/data/filtered
