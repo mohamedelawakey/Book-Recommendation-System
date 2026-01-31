@@ -8,7 +8,7 @@
 ## How It Works (The Big Picture)
 1. #### `Smart Data Processing`: We take raw data about programming books, `clean` it, and `analyze` it using advanced `data science` tools to ensure only the highest quality information is used.
 2. #### `Machine Learning Intelligence`: Using `PyTorch` and modern `embedding techniques`, the system "reads" the books and transforms their content into a mathematical format that allows it to `calculate similarities` between different titles.
-3. #### `Fast & Scalable Retrieval`: To ensure you get your results instantly, we use a `Vector Database (Milvus)`, which is specifically designed to handle high-speed searches across large datasets.
+3. #### `Fast & Scalable Retrieval`: To ensure you get your results instantly, we use a `Vector Database (PGVector)`, which is specifically designed to handle high-speed searches across large datasets.
 4. #### `Modern Web Experience`: The entire engine is wrapped in a high-performance `FastAPI` backend and presented through a sleek, responsive Next.js frontend, making it accessible and easy to use for everyone.
 5. #### `Reliable Deployment`: The project is fully containerized using `Docker`, ensuring that it runs smoothly on any machine (Windows, Linux, or macOS) with minimal setup.
 
@@ -94,7 +94,7 @@ pip install -r backend/requirements.txt
 - **FrontEnd:** `React` - `Next`
 - **Contenarization:** `Docker`
 - **DataBases:** `PostgreSQL`
-- **Vector DataBases:** `Milvus`
+- **Vector DataBases:** `PGVector`
 - **Scripts:** `Shell Script`
 
 ---
