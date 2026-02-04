@@ -52,7 +52,7 @@ Choose the command based on your Operating System:
 
 # Requirements
 
-#### **python** `3.12.2`
+#### **Python** `3.12.2`
 #### **PyTorch** : go to [pytorch](https://pytorch.org/) and choose what you want to install if you have Linux, Windows, or macOS.
 <img src="imgs/torch_site.png">
 
@@ -77,24 +77,27 @@ pip install -r backend/requirements.txt
 ---
 
 # 📂 Project Structure
-#### you can show the [Project Structure](FileStructure.md) here 
+#### A detailed overview of the project layout can be found here:  
+👉 [Project Structure](FileStructure.md)
 
 ---
 
 ## 🛠 Tech Stack
 - **Language:** `Python 3.12`
 - **ML Framework:** `PyTorch`, `scikit-learn`
-- **Data Handling:** `Pandas`, `NumPy`
-- **Data Cleaning:** `Pandas`, `NumPy`
+- **Data Handling & Cleaning:** `Pandas`, `NumPy`
 - **Data Visualization:** `matplotlib`, `seaborn`
 - **Data Processing:** `scikit-learn`, `category-encoders`
-- **Data Visualization:** `matplotlib`, `seaborn`
 - **Embedding:** `sentence-transformers`
 - **API:** `FastAPI`
-- **FrontEnd:** `React` - `Next`
-- **Contenarization:** `Docker`
-- **DataBases:** `PostgreSQL`
-- **Vector DataBases:** `PGVector`
-- **Scripts:** `Shell Script`
+- **Frontend:** `React`, `Next.js`
+- **Containerization:** `Docker`
+- **Databases:** `PostgreSQL`
+- **Vector Databases:** `PGVector`
+- **Scripts:** `Shell`
 
 ---
+
+## License
+This project is source-available for non-commercial use under the Business Source License 1.1 [LICENSE](LICENSE).
+It will become fully open-source under Apache License 2.0 on 2030-01-01.
