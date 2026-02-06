@@ -18,7 +18,7 @@ class Search:
             embed_result = Embedder.embedder(user_text)
             query_embedding = embed_result.get("name_embeddings")
 
-            if not query_embedding:
+            if query_embedding is None or len(query_embedding) == 0:
                 logger.warning("Search: empty embedding returned")
                 return []
 
