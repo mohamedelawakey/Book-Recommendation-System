@@ -24,7 +24,7 @@ class MetadataService:
                     results = cursor.fetchall()
 
             books = [
-                Dict(result) for result in results
+                dict(result) for result in results
             ]
 
             logger.info(f"MetaDataService: retrieved metadata for {len(books)} books")
