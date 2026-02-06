@@ -10,10 +10,12 @@ class Enumerations():
 
     # SQL Queries
     vector_service_query = """
-        SELECT book_id, 1 - (embedding <#> %s ::vector) AS similarity
+        SELECT
+            book_id,
+            1 - (embedding <=> %s::vector) AS similarity
         FROM books
-        ORDER BY embedding <#> %s ::vector
-        LIMIT %s
+        ORDER BY embedding <=> %s::vector
+        LIMIT %s;
     """
 
     metadata_service_query = """
@@ -26,5 +28,5 @@ class Enumerations():
     """
 
     # books
-    top_k_search = 100
+    top_k = 100
     top_k_rerank = 50
