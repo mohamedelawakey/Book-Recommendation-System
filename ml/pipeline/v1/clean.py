@@ -1,6 +1,6 @@
 import re
 from bs4 import BeautifulSoup
-from Enum.Enumerations import Enumerations
+from ml.Enum.Enumerations import Enumerations
 from backend.app.core.logging import get_logger
 
 logger = get_logger(__name__, system_type="ml")
